@@ -1,0 +1,44 @@
+worksheet 7
+SQL
+
+1. option a,b
+2. option b,c
+3. option c
+4. option c
+5. option c
+6. option c
+7. option c
+8. option b
+9. option b
+10. option a
+
+11.
+A JOIN clause is used to combine rows from two or more tables, 
+based on a related column between them.
+SQL join statements allow us to access information from two or more tables at once. They also keep our database normalized. 
+Normalization allows us to keep data redundancy low so that we can decrease the amount of data anomalies in our application when we delete or update a record.
+
+12.
+Different Types of SQL JOINs
+Here are the different types of the JOINs in SQL:
+(INNER) JOIN: Returns records that have matching values in both tables
+LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
+RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
+FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
+
+13.
+SQL SERVER is a relational database management system (RDBMS) developed by Microsoft. 
+It is primarily designed and developed to compete with MySQL and Oracle database.
+SQL Server supports ANSI SQL, which is the standard SQL (Structured Query Language) language. However, 
+SQL Server comes with its own implementation of the SQL language, T-SQL (Transact-SQL).
+
+14.
+The PRIMARY KEY constraint uniquely identifies each record in a table. Primary keys must contain UNIQUE values, and cannot contain NULL values. 
+A table can have only ONE primary key; and in the table, this primary key can consist of single or multiple columns (fields).
+
+15.
+ETL stands for Extract, Transform and Load, which is a process used to collect data from various sources, 
+transform the data depending on business rules/needs and load the data into a destination database. 
+The need to use ETL arises from the fact that in modern computing business data resides in multiple locations and in many incompatible formats. 
+For example business data might be stored on the file system in various formats (Word docs, PDF, spreadsheets, plain text, etc), or can be stored as email files, 
+or can be kept in a various database servers like MS SQL Server, Oracle and MySQL for example. Handling all this business information efficiently is a great challenge and ETL plays an important role in solving this problem.

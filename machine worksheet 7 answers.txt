@@ -1,0 +1,60 @@
+worksheet 7
+machine learning 
+
+1. option d
+2. option a
+3. option b
+4. option a
+5. option a
+6. option c
+7. option b
+8. option a
+
+10.
+A random forest is simply a collection of decision trees whose results are aggregated into one final result. 
+Their ability to limit overfitting without substantially increasing error due to bias is why they are such powerful models. 
+One way Random Forests reduce variance is by training on different samples of the data. 
+
+11.
+Dataset that had multiple features spanning varying degrees of magnitude, range, and units. 
+This is a significant obstacle as a few machine learning algorithms are highly sensitive to these features.
+This is where the concept of feature scaling comes. 
+It’s a crucial part of the data preprocessing stage (to the detriment of their machine learning model).
+
+The most common techniques of feature scaling are Normalization and Standardization.
+Normalization is used when we want to bound our values between two numbers, typically, between [0,1] or [-1,1].
+While Standardization transforms the data to have zero mean and a variance of 1, they make our data unitless.
+Here’s the curious thing about feature scaling – it improves (significantly) the performance of some machine learning algorithms and does not work at all for others.
+
+12.
+Optimization is a big part of machine learning. Almost every machine learning algorithm has an optimization algorithm at it’s core.
+Gradient descent is an optimization algorithm used to find the values of parameters (coefficients) of a function (f) that minimizes a cost function (cost).
+Gradient descent is best used when the parameters cannot be calculated analytically (e.g. using linear algebra) and must be searched for by an optimization algorithm.
+
+13.
+Classification accuracy is the most-used metric for evaluating classification models.
+it is natural to use it on imbalanced classification problems, where the distribution of examples in the training dataset across the classes is not equal.
+This is the most common mistake made by beginners to imbalanced classification.
+When the class distribution is slightly skewed, accuracy can still be a useful metric. 
+When the skew in the class distributions are severe, accuracy can become an unreliable measure of model performance.
+The reason for this unreliability is centered around the average machine learning practitioner and the intuitions for classification accuracy.
+Typically, classification predictive modeling is practiced with small datasets where the class distribution is equal or very close to equal. 
+Therefore, most practitioners develop an intuition that large accuracy score (or conversely small error rate scores) are good, and values above 90 percent are great.
+Achieving 90 percent classification accuracy, or even 99 percent classification accuracy, may be trivial on an imbalanced classification problem.
+This means that intuitions for classification accuracy developed on balanced class distributions will be applied and will be wrong, 
+misleading the practitioner into thinking that a model has good or even excellent performance when it, in fact, does not.
+
+14.
+The F-score, also called the F1-score, is a measure of a model’s accuracy on a dataset. It is used to evaluate binary classification systems, 
+which classify examples into ‘positive’ or ‘negative’.
+The F-score is a way of combining the precision and recall of the model, and it is defined as the harmonic mean of the model’s precision and recall.
+The F-score is commonly used for evaluating information retrieval systems such as search engines, 
+and also for many kinds of machine learning models, in particular in natural language processing.
+It is possible to adjust the F-score to give more importance to precision over recall, or vice-versa. 
+Common adjusted F-scores are the F0.5-score and the F2-score, as well as the standard F1-score.
+
+The formula for the standard F1-score is the harmonic mean of the precision and recall. A perfect model has an F-score of 1.
+
+15.
+The fit() function calculates the values of these parameters. The transform function applies the values of the parameters on the actual data and gives the normalized value. 
+The fit_transform() function performs both in the same step. Note that the same value is got whether we perform in 2 steps or in a single step.
